@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_Formatting</title>
+</head>
+
+<body>
+    <div>
+        <fieldset>
+            <legend>
+                <h1>Semantics in HTML</h1>
+            </legend>
+            <p><span>&#128073;</span> In HTML, for example, the <code><b>&lt;h1&gt;</b></code> element is a semantic
+                element, which gives the text it wraps around the role (or meaning) of " a top level heading on your
+                page."</p>
+            <details>
+                <summary>
+                    <mark> Here is a top level heading</mark>
+                </summary>
+            </details>
+            <p><span>&#128073;</span> By default, most browsers user agent stylesheet will style <code>&lt;h1&gt;</code>
+                with a large font
+                size to make it look like a heading (although you could style it to look anything you wanted) On the
+                other hand, you could make any elemnt look like a top level heading. </p>
+            <details>
+                <summary>
+                    <mark> Consider the following</mark>
+                </summary>
+            </details>
+            <p><span>&#10158;</span>This will render it to look like a top level heading, but it has no semanticvalue,
+                so
+                it will not get any extra benefits as describes as above. It is therefore a good idea to use the right
+                HTML element for the right job.</p>
+            <p><span>&#10158;</span>HTML should be coded to represent the data that will be populated and not based on
+                its default presentation styling. Presentation (how it should look
+                ), is the sole responsibility of CSS. </p>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>
+                <h3>Some of the benefits from writing semantic markup are as follows:</h3>
+            </legend>
+            <ul>
+                <li>Search engines will consider its content as importent keywords to
+                    influence the page`s search rankings (See <a
+                        href="https://developer.mozilla.org/en-US/docs/Glossary/SEO">SEO</a> )
+                </li>
+                <li> Screen readers can use it as a signpost to help visually impaired
+                    users navigate a page
+                </li>
+                <li>Finding blocks of meainingful code is significantly easier than
+                    searching through endless divs with or without semantic or
+                    namespaced classes
+                </li>
+                <li>Suggests to the devoloper the type of data that will be populated
+                </li>
+                <li>Semantic neaming mirrors proper custom element/component naming
+                </li>
+            </ul>
+        </fieldset>
+    </div>
+    <div>
+        <h1>Some semantic elements</h1>
+        <table border="1px" style="width:100% ;">
+            <tr>
+                <td>article</td>
+                <td>aside</td>
+                <td>figure</td>
+                <td>details</td>
+                <td>figcaption</td>
+                <td>figure</td>
+            </tr>
+            <tr>
+                <td>footer</td>
+                <td>header</td>
+                <td><mark>mark</mark></td>
+                <td>main</td>
+                <td><i>em</i></td>
+                <td>nav</td>
+            </tr>
+            <tr>
+                <td><strong>strong</strong></td>
+                <td>section</td>
+                <td>summary</td>
+                <td>time</td>
+                <td>adress</td>
+                <td>blockquote</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <fieldset>
+            <legend>
+                <h1>SEO</h1>
+            </legend>
+            <p><span>&#11088;</span><mark>SEO (Search Engine Optimization)</mark> ist process of making a website more
+                visibke in search results, also sermed improving search rankings.</p>
+            <p><span>&#11088;</span>Search engines <strong>crawl</strong> the web, following links from page to page and
+                index the
+                contend found. When you search, the search engine displays the indexed content. Crawlers follow rules.
+                If you follow those rules closly when doing SEO for a website, you give the site the best chances of
+                showing up among the first results, ineresing traffic and possibly revenue (<em>for ecommerce and
+                    ads.</em>)</p>
+            <p><span>&#11088;</span>Search engines give some guidelines for SEO, but big search engines keep result
+                ranking as a trade secre, SEO combines officail search engine guidelines, emprical knowladge, and
+                theoritacal from science papers or patents.</p>
+        </fieldset>
+    </div>
+    <div>
+        <p><strong>Hint:</strong><em>The information on this page is taken from the <strong>MDN</strong> site. 
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html">Click</a> 
+            for more detailed information.</em>
+        </p>
+    </div>
+</body>
+
+</html>
